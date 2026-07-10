@@ -61,6 +61,7 @@
       "icon": "download",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 3, "h": 3},
+      "hidden": true,
       "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/spotify_downloader-1.0/spotify_downloader.zip"
     },
     {
