@@ -1,7 +1,7 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Explotador72/extensions-coreframe/main/registry.schema.json",
+  "$schema": "https://raw.githubusercontent.com/RoftCore/extensions-coreframe/main/registry.schema.json",
   "publisher": "SentinelGD",
-  "repository": "https://github.com/Explotador72/extensions-coreframe",
+  "repository": "https://github.com/RoftCore/extensions-coreframe",
   "extensions": [
     {
       "id": "app_carousel",
@@ -13,7 +13,7 @@
       "icon": "circle",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 1, "h": 1},
-      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/app_carousel-1.0/app_carousel.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/app_carousel-1.0/app_carousel.zip"
     },
     {
       "id": "fortune_cookie",
@@ -25,7 +25,7 @@
       "icon": "circle",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 2, "h": 1},
-      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/fortune_cookie-1.0/fortune_cookie.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/fortune_cookie-1.0/fortune_cookie.zip"
     },
     {
       "id": "network_monitor",
@@ -37,7 +37,7 @@
       "icon": "network",
       "platforms": ["windows"],
       "grid_size": {"w": 2, "h": 2},
-      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/network_monitor-1.4/network_monitor.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/network_monitor-1.4/network_monitor.zip"
     },
     {
       "id": "process_manager",
@@ -49,7 +49,7 @@
       "icon": "cpu",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 3, "h": 3},
-      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/process_manager-1.2/process_manager.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/process_manager-1.2/process_manager.zip"
     },
     {
       "id": "spotify_downloader",
@@ -61,7 +61,7 @@
       "icon": "download",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 3, "h": 3},
-      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/spotify_downloader-1.0/spotify_downloader.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/spotify_downloader-1.0/spotify_downloader.zip"
     },
     {
       "id": "system_monitor",
@@ -73,7 +73,7 @@
       "icon": "monitor",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 2, "h": 2},
-      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/system_monitor-1.1/system_monitor.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/system_monitor-1.1/system_monitor.zip"
     },
     {
       "id": "vault_manager",
@@ -85,7 +85,7 @@
       "icon": "vault",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 2, "h": 2},
-      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/vault_manager-1.0/vault_manager.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/vault_manager-1.0/vault_manager.zip"
     }
   ]
 }
