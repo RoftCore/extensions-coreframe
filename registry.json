@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Explotador72/extensions-coreframe/main/registry.schema.json",
+  "publisher": "SentinelGD",
+  "repository": "https://github.com/Explotador72/extensions-coreframe",
+  "extensions": [
+    {
+      "id": "app_carousel",
+      "name": "App Carousel",
+      "version": "1.0",
+      "author": "SentinelGD",
+      "description": "Quick-switch between extensions with a circular carousel",
+      "category": "ui",
+      "icon": "circle",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 1, "h": 1},
+      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/app_carousel-1.0/app_carousel.zip"
+    },
+    {
+      "id": "fortune_cookie",
+      "name": "Fortune Cookie",
+      "version": "1.0",
+      "author": "SentinelGD",
+      "description": "Random fortunes and witty quotes at a click",
+      "category": "fun",
+      "icon": "circle",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 2, "h": 1},
+      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/fortune_cookie-1.0/fortune_cookie.zip"
+    },
+    {
+      "id": "network_monitor",
+      "name": "Network Monitor",
+      "version": "1.4",
+      "author": "SentinelGD",
+      "description": "Public IP, VPN, ports, DNS leaks",
+      "category": "cybersecurity",
+      "icon": "network",
+      "platforms": ["windows"],
+      "grid_size": {"w": 2, "h": 2},
+      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/network_monitor-1.4/network_monitor.zip"
+    },
+    {
+      "id": "process_manager",
+      "name": "Process Manager",
+      "version": "1.2",
+      "author": "SentinelGD",
+      "description": "System process management: view, filter, kill and monitor usage",
+      "category": "processes",
+      "icon": "cpu",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 3, "h": 3},
+      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/process_manager-1.2/process_manager.zip"
+    },
+    {
+      "id": "spotify_downloader",
+      "name": "Spotify Downloader",
+      "version": "1.0",
+      "author": "SentinelGD",
+      "description": "Download Spotify playlists as MP3 via YouTube",
+      "category": "media",
+      "icon": "download",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 3, "h": 3},
+      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/spotify_downloader-1.0/spotify_downloader.zip"
+    },
+    {
+      "id": "system_monitor",
+      "name": "System Monitor",
+      "version": "1.1",
+      "author": "SentinelGD",
+      "description": "CPU, RAM, GPU, disk and system processes",
+      "category": "system",
+      "icon": "monitor",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 2, "h": 2},
+      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/system_monitor-1.1/system_monitor.zip"
+    },
+    {
+      "id": "vault_manager",
+      "name": "Vault Manager",
+      "version": "1.0",
+      "author": "SentinelGD",
+      "description": "Encrypted notes and secrets management",
+      "category": "system",
+      "icon": "vault",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 2, "h": 2},
+      "download_url": "https://github.com/Explotador72/extensions-coreframe/releases/download/vault_manager-1.0/vault_manager.zip"
+    }
+  ]
+}
