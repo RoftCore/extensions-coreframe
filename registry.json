@@ -37,7 +37,7 @@
       "icon": "network",
       "platforms": ["windows"],
       "grid_size": {"w": 2, "h": 2},
-      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/network_monitor-1.4/network_monitor.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/network_monitor/network_monitor.zip"
     },
     {
       "id": "process_manager",
