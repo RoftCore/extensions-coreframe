@@ -13,7 +13,7 @@
       "icon": "circle",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 1, "h": 1},
-      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/app_carousel-1.0/app_carousel.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/app_carousel/app_carousel.zip"
     },
     {
       "id": "fortune_cookie",
