@@ -25,7 +25,7 @@
       "icon": "circle",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 2, "h": 1},
-      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/fortune_cookie-1.0/fortune_cookie.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/fortune_cookie/fortune_cookie.zip"
     },
     {
       "id": "network_monitor",
