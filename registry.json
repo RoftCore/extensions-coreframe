@@ -86,7 +86,7 @@
       "icon": "vault",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 2, "h": 2},
-      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/vault_manager-1.0/vault_manager.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/vault_manager/vault_manager.zip"
     }
   ]
 }
