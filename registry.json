@@ -74,7 +74,7 @@
       "icon": "monitor",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 2, "h": 2},
-      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/system_monitor-1.1/system_monitor.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/system_monitor/system_monitor.zip"
     },
     {
       "id": "vault_manager",
