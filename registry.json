@@ -65,6 +65,19 @@
       "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/spotify_downloader/spotify_downloader.zip"
     },
     {
+      "id": "idea_canvas",
+      "name": "Idea Canvas",
+      "version": "1.0",
+      "author": "SentinelGD",
+      "description": "Design your projects in a dynamic terrain",
+      "category": "design",
+      "icon": "canvas",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 2, "h": 1},
+      "hidden": false,
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/idea_canvas/idea_canvas.zip"
+    },
+    {
       "id": "system_monitor",
       "name": "System Monitor",
       "version": "1.1",
