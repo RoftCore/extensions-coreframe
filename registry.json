@@ -65,6 +65,19 @@
       "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/spotify_downloader/spotify_downloader.zip"
     },
     {
+      "id": "opencore",
+      "name": "OpenCore",
+      "version": "1.12",
+      "author": "SentinelGD",
+      "description": "Get access to multiple available AI in your computer",
+      "category": "ai",
+      "icon": "robot",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 4, "h": 3},
+      "hidden": true,
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/opencore-1.12/opencore-1.12.zip"
+    },
+    {
       "id": "idea_canvas",
       "name": "Idea Canvas",
       "version": "1.0",
