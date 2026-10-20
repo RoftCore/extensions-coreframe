@@ -1,207 +1,165 @@
 {
-    "$schema":  "https://raw.githubusercontent.com/RoftCore/extensions-coreframe/main/registry.schema.json",
-    "publisher":  "SentinelGD",
-    "repository":  "https://github.com/RoftCore/extensions-coreframe",
-    "extensions":  [
-                       {
-                           "id":  "app_carousel",
-                           "name":  "App Carousel",
-                           "version":  "1.0",
-                           "author":  "SentinelGD",
-                           "description":  "Quick-switch between extensions with a circular carousel",
-                           "category":  "ui",
-                           "icon":  "circle",
-                           "platforms":  [
-                                             "windows",
-                                             "linux"
-                                         ],
-                           "grid_size":  {
-                                             "w":  1,
-                                             "h":  1
-                                         },
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/app_carousel/app_carousel.zip"
-                       },
-                       {
-                           "id":  "fortune_cookie",
-                           "name":  "Fortune Cookie",
-                           "version":  "1.0",
-                           "author":  "SentinelGD",
-                           "description":  "Random fortunes and witty quotes at a click",
-                           "category":  "fun",
-                           "icon":  "circle",
-                           "platforms":  [
-                                             "windows",
-                                             "linux"
-                                         ],
-                           "grid_size":  {
-                                             "w":  2,
-                                             "h":  1
-                                         },
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/fortune_cookie/fortune_cookie.zip"
-                       },
-                       {
-                           "id":  "network_monitor",
-                           "name":  "Network Monitor",
-                           "version":  "1.4",
-                           "author":  "SentinelGD",
-                           "description":  "Public IP, VPN, ports, DNS leaks",
-                           "category":  "cybersecurity",
-                           "icon":  "network",
-                           "platforms":  [
-                                             "windows"
-                                         ],
-                           "grid_size":  {
-                                             "w":  2,
-                                             "h":  2
-                                         },
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/network_monitor/network_monitor.zip"
-                       },
-                       {
-                           "id":  "process_manager",
-                           "name":  "Process Manager",
-                           "version":  "1.2",
-                           "author":  "SentinelGD",
-                           "description":  "System process management: view, filter, kill and monitor usage",
-                           "category":  "processes",
-                           "icon":  "cpu",
-                           "platforms":  [
-                                             "windows",
-                                             "linux"
-                                         ],
-                           "grid_size":  {
-                                             "w":  3,
-                                             "h":  3
-                                         },
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/process_manager/process_manager.zip"
-                       },
-                       {
-                           "id":  "spotify_downloader",
-                           "name":  "Spotify Downloader",
-                           "version":  "1.0",
-                           "author":  "SentinelGD",
-                           "description":  "Download Spotify playlists as MP3 via YouTube",
-                           "category":  "media",
-                           "icon":  "download",
-                           "platforms":  [
-                                             "windows",
-                                             "linux"
-                                         ],
-                           "grid_size":  {
-                                             "w":  3,
-                                             "h":  3
-                                         },
-                           "hidden":  true,
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/spotify_downloader/spotify_downloader.zip"
-                       },
-                       {
-                           "id":  "opencore",
-                           "name":  "OpenCore",
-                           "version":  "1.12",
-                           "author":  "SentinelGD",
-                           "description":  "Get access to multiple available AI in your computer",
-                           "category":  "ai",
-                           "icon":  "robot",
-                           "platforms":  [
-                                             "windows",
-                                             "linux"
-                                         ],
-                           "grid_size":  {
-                                             "w":  4,
-                                             "h":  3
-                                         },
-                           "hidden":  true,
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/opencore-1.12/opencore-1.12.zip"
-                       },
-                       {
-                           "id":  "idea_canvas",
-                           "name":  "Idea Canvas",
-                           "version":  "1.0",
-                           "author":  "SentinelGD",
-                           "description":  "Design your projects in a dynamic terrain",
-                           "category":  "design",
-                           "icon":  "canvas",
-                           "platforms":  [
-                                             "windows",
-                                             "linux"
-                                         ],
-                           "grid_size":  {
-                                             "w":  2,
-                                             "h":  1
-                                         },
-                           "hidden":  false,
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/idea_canvas/idea_canvas.zip"
-                       },
-                       {
-                           "id":  "system_monitor",
-                           "name":  "System Monitor",
-                           "version":  "1.1",
-                           "author":  "SentinelGD",
-                           "description":  "CPU, RAM, GPU, disk and system processes",
-                           "category":  "system",
-                           "icon":  "monitor",
-                           "platforms":  [
-                                             "windows",
-                                             "linux"
-                                         ],
-                           "grid_size":  {
-                                             "w":  2,
-                                             "h":  2
-                                         },
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/system_monitor/system_monitor.zip"
-                       },
-                       {
-                           "id":  "vault_manager",
-                           "name":  "Vault Manager",
-                           "version":  "1.0",
-                           "author":  "SentinelGD",
-                           "description":  "Encrypted notes and secrets management",
-                           "category":  "system",
-                           "icon":  "vault",
-                           "platforms":  [
-                                             "windows",
-                                             "linux"
-                                         ],
-                           "grid_size":  {
-                                             "w":  2,
-                                             "h":  2
-                                         },
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/vault_manager/vault_manager.zip"
-                       },
-                       {
-                           "id":  "metadata_stripper",
-                           "name":  "Metadata Stripper",
-                           "version":  "1.0",
-                           "author":  "IA-Local",
-                           "description":  "Lossless metadata cleaner for images (EXIF, GPS, text, ICC) without re-encoding pixels",
-                           "category":  "tools",
-                           "icon":  "wand",
-                           "platforms":  [
-                                             "windows",
-                                             "linux"
-                                         ],
-                           "grid_size":  {
-                                             "w":  3,
-                                             "h":  2
-                                         },
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/metadata_stripper/metadata_stripper.zip"
-                       },
-                       {
-                           "id":  "image_gallery",
-                           "name":  "Image Gallery",
-                           "version":  "1.0",
-                           "author":  "SentinelGD",
-                           "description":  "Grid of images with configurable columns per row, uploads and lightbox",
-                           "category":  "media",
-                           "icon":  "image",
-                           "platforms":  [
-                                             "windows",
-                                             "linux"
-                                         ],
-                           "grid_size":  {
-                                             "w":  4,
-                                             "h":  3
-                                         },
-                           "download_url":  "https://github.com/RoftCore/extensions-coreframe/releases/download/image_gallery/image_gallery.zip"
-                       }
-                   ]
+  "$schema": "https://raw.githubusercontent.com/RoftCore/extensions-coreframe/main/registry.schema.json",
+  "publisher": "SentinelGD",
+  "repository": "https://github.com/RoftCore/extensions-coreframe",
+  "extensions": [
+    {
+      "id": "app_carousel",
+      "name": "App Carousel",
+      "version": "1.0",
+      "author": "SentinelGD",
+      "description": "Quick-switch between extensions with a circular carousel",
+      "category": "ui",
+      "icon": "circle",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 1, "h": 1},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/app_carousel/app_carousel.zip"
+    },
+    {
+      "id": "console",
+      "name": "Console",
+      "version": "3.0",
+      "author": "IA-Local",
+      "description": "The machine's own shell on a real PTY: cmd.exe on Windows, $SHELL on Linux",
+      "category": "system",
+      "icon": "terminal",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 5, "h": 4},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/console-1.1/console.zip"
+    },
+    {
+      "id": "fortune_cookie",
+      "name": "Fortune Cookie",
+      "version": "1.1",
+      "author": "SentinelGD",
+      "description": "Random fortunes and witty quotes at a click",
+      "category": "fun",
+      "icon": "circle",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 2, "h": 1},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/fortune_cookie-1.1/fortune_cookie-1.1.zip"
+    },
+    {
+      "id": "ideas_canvas",
+      "name": "Ideas Canvas",
+      "version": "1.0",
+      "author": "CoreFrame",
+      "description": "Visual mind-map canvas to plan projects with nodes and connections",
+      "category": "general",
+      "icon": "layout",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 3, "h": 2},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/idea_canvas/ideas_canvas.zip"
+    },
+    {
+      "id": "image_gallery",
+      "name": "Image Gallery",
+      "version": "1.0",
+      "author": "SentinelGD",
+      "description": "Grid of images with configurable columns per row, uploads and lightbox",
+      "category": "media",
+      "icon": "image",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 4, "h": 3},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/image_gallery/image_gallery.zip"
+    },
+    {
+      "id": "metadata_stripper",
+      "name": "Metadata Stripper",
+      "version": "1.1",
+      "author": "IA-Local",
+      "description": "Removes embedded metadata (EXIF, GPS, authors, PDF/Office data) without re-encoding content",
+      "category": "tools",
+      "icon": "wand",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 2, "h": 2},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/metadata_stripper-1.1/metadata_stripper-1.1.zip"
+    },
+    {
+      "id": "network_monitor",
+      "name": "Network Monitor",
+      "version": "1.4",
+      "author": "SentinelGD",
+      "description": "Public IP, VPN, ports, DNS leaks",
+      "category": "cybersecurity",
+      "icon": "network",
+      "platforms": ["windows"],
+      "grid_size": {"w": 2, "h": 1},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/network_monitor/network_monitor.zip"
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "version": "1.1",
+      "author": "SentinelGD",
+      "description": "Notes management",
+      "category": "system",
+      "icon": "vault",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 2, "h": 1},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/notes-1.1/notes-1.1.zip"
+    },
+    {
+      "id": "opencore",
+      "name": "OpenCore",
+      "version": "1.12",
+      "author": "IA-Local",
+      "description": "Chat with the free opencode models through its gateway, no account needed",
+      "category": "ai",
+      "icon": "terminal",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 5, "h": 5},
+      "hidden": true,
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/opencore-1.12/opencore-1.12.zip"
+    },
+    {
+      "id": "process_manager",
+      "name": "Process Manager",
+      "version": "1.2",
+      "author": "SentinelGD",
+      "description": "System process management: view, filter, kill and monitor usage",
+      "category": "processes",
+      "icon": "cpu",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 3, "h": 3},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/process_manager/process_manager.zip"
+    },
+    {
+      "id": "spotify_downloader",
+      "name": "Spotify Downloader",
+      "version": "1.0",
+      "author": "SentinelGD",
+      "description": "Download Spotify playlists as MP3 via YouTube",
+      "category": "media",
+      "icon": "download",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 2, "h": 1},
+      "hidden": true,
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/spotify_downloader/spotify_downloader.zip"
+    },
+    {
+      "id": "system_monitor",
+      "name": "System Monitor",
+      "version": "1.1",
+      "author": "SentinelGD",
+      "description": "CPU, RAM, GPU, disk and system processes",
+      "category": "system",
+      "icon": "monitor",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 2, "h": 1},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/system_monitor/system_monitor.zip"
+    },
+    {
+      "id": "vault_manager",
+      "name": "Vault Manager",
+      "version": "1.1",
+      "author": "SentinelGD",
+      "description": "Encrypted notes and secrets management",
+      "category": "system",
+      "icon": "vault",
+      "platforms": ["windows", "linux"],
+      "grid_size": {"w": 2, "h": 1},
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/vault_manager/vault_manager.zip"
+    }
+  ]
 }
