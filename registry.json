@@ -18,14 +18,14 @@
     {
       "id": "console",
       "name": "Console",
-      "version": "3.0",
+      "version": "3.1",
       "author": "IA-Local",
       "description": "The machine's own shell on a real PTY: cmd.exe on Windows, $SHELL on Linux",
       "category": "system",
       "icon": "terminal",
       "platforms": ["windows", "linux"],
       "grid_size": {"w": 5, "h": 4},
-      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/console-1.1/console.zip"
+      "download_url": "https://github.com/RoftCore/extensions-coreframe/releases/download/console-3.1/console.zip"
     },
     {
       "id": "fortune_cookie",
